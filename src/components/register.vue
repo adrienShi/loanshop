@@ -17,7 +17,7 @@
         <div class="ipnutBar">
           <p class="phone"><input type="number" v-model.number="inputData.phone" placeholder="请输入手机号"></p>
           <p class="verify"><input type="text" v-model="inputData.verify" placeholder="请输入验证码"> <button v-on:click="verify" > {{inputData.verifyText}}</button></p>
-          <p class="agreement"><check-icon :value.sync="inputData.agreement" type="plain">我已阅读并同意<a href="/#" style="color: #0099FF;">《乐借钱平台服务协议》</a> </check-icon></p>
+          <p class="agreement"><check-icon :value.sync="inputData.agreement" type="plain">我已阅读并同意<a href="#/agreement" style="color: #0099FF;">《乐借钱平台服务协议》</a> </check-icon></p>
           <p class="next"><button v-on:click="go">下一步</button></p>
         </div>
 

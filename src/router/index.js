@@ -5,6 +5,7 @@ import register from '@/components/register'
 import his from '@/components/his'
 import evaluate from '@/components/evaluate' 
 import evaluateDetails from '@/components/evaluateDetails' 
+import agreement from '@/components/agreement' 
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ export default new Router({
       path: '/evaluateDetails',
       name: 'evaluateDetails',
       component: evaluateDetails
+    },
+    {
+      path: '/agreement',
+      name: 'agreement',
+      component: agreement
     }
   ]
 })
